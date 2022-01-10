@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Componentes</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body class=" bg-secondary">
+      <!--                       NAV                         -->
+      
+      <nav class="navbar navbar-expand-sm bg-light navbar-light p-3 mb-2 bg-dark text-warning">
+         <div class="container-fluid">
+            <a class="navbar-brand text-warning" href="#">
+            NewComponents
+            </a>
+            <button class="navbar-toggler bg-warnig border-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+               <ul class="navbar-nav ">
+                  <li class="nav-item">
+                     <a class="nav-link text-warning" href="Ordenadres.html">Ordenadores</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-warning" href="Componentes.html">Componetes</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active text-warning" href="Opinion.html">Opinion</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+        
+         <button type="button" class="btn btn-primary bg-success" data-toggle="modal" data-target="#exampleModal">
+           <h2> Novedades</h2>
+          </button>
+          
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Mas Novedades</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  En las siguentes paginas
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">De acuerdo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+      </div>
+      <br>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Correo</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="@gmail.com">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Nombre</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Pedro">
+        </div>
+        <div class="form-group">
+          <label for="inputApartado">Apartado relevante</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Componentes,ordenadores...">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputState">Calidad informacion</label>
+            <select id="inputState" class="form-control">
+              <option selected>Alta</option>
+              <option>Media</option>
+              <option>Baja</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Acepto los terminos
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      
+      <!--                 FOOTER                 -->
+
+      <div class="bg-light container-fluid mt-2">
+         <br><br>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-3">
+                  <h4> NewComponents</h4>
+                  <ul class="text-primary list-unstyled">
+                     <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=newssearch&cd=&cad=rja&uact=8&ved=2ahUKEwiJjaOSgqf1AhUMkxQKHeqqAx0QxfQBKAB6BAgTEAI&url=https%3A%2F%2Fwww.profesionalreview.com%2F2022%2F01%2F09%2Fnuc-12-extreme-mini-pc-alder-lake%2F&usg=AOvVaw38anV7hWd9C-tKF82aQr-I">NUC 12 Extreme</a></li>
+                     <li><a href="https://www.3djuegospc.com/procesadores/zen-4-amd-oficial-llegara-ryzen-7000-buque-insignia-compania-para-este-2022-se-hara-rogar">Zen 4 de AMD</a></li>
+                     <li><a href="https://computerhoy.com/noticias/tecnologia/hyperx-presenta-nuevas-herramientas-dominar-videojuegos-987231">HyperX</a></li>
+                  </ul>
+               </div>
+            </div>
+            <hr>
+         </div>
+         <footer>
+            <p class="text-center"> &#169; Your name 2021.</p>
+            <br>
+         </footer>
+      </div>
+   </body>
+</html>
+  
